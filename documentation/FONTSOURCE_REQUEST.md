@@ -6,20 +6,44 @@ Before either route, search https://github.com/fontsource/font-files for an exis
 
 ## Route A: request it (Fontsource packages it)
 
-Open an issue at https://github.com/fontsource/font-files/issues/new/choose using the font request template, if there is one.
+Open https://github.com/fontsource/font-files/issues/new/choose and pick **➕ Font request**. Paste each block below into the field with the same name.
 
-**Title:** Font request: LandUI Pro
+**Title** (the form fills in `Font Request: `):
 
-**Body:**
+```
+Font Request: LandUI Pro (Variable)
+```
 
-- Font name: LandUI Pro
-- Official source: https://github.com/multiporttm/landui-pro-repo
-- License: SIL Open Font License 1.1 (OFL.txt in the repository)
-- Designer: Multiport
-- Type: variable font, axes `opsz` 14–32 and `wght` 100–900, normal style only
+**Font Name** (required):
+
+```
+LandUI Pro
+```
+
+**Link to font source** (required):
+
+```
+https://github.com/multiporttm/landui-pro-repo
+```
+
+**Link to font license** (required):
+
+```
+https://github.com/multiporttm/landui-pro-repo/blob/main/OFL.txt (SIL Open Font License 1.1)
+```
+
+**Additional context** (optional):
+
+```
+Variable font by Multiport, derived from Inter (OFL-1.1).
+
+- Axes: opsz 14–32, wght 100–900; normal style only
 - Subsets: latin, latin-ext
-- Files: `fonts/variable/LandUIPro[opsz,wght].ttf` (WOFF2 also in `fonts/webfonts/`)
-- Notes: Derived from Inter (OFL). Attach `documentation/landui-pro-vs-inter.png`.
+- Variable TTF: fonts/variable/LandUIPro[opsz,wght].ttf
+- WOFF2: fonts/webfonts/LandUIPro[opsz,wght].woff2
+```
+
+Then drag `documentation/landui-pro-vs-inter.png` into the Additional context box to attach the specimen.
 
 ## Route B: package it yourself (PR)
 
