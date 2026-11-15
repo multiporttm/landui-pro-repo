@@ -6,44 +6,55 @@ Before either route, search https://github.com/fontsource/font-files for an exis
 
 ## Route A: request it (Fontsource packages it)
 
-Open https://github.com/fontsource/font-files/issues/new/choose and pick **➕ Font request**. Paste each block below into the field with the same name.
+Open https://github.com/fontsource/font-files/issues/new/choose and pick **➕ Font request**. This is the request as it was entered in the form.
 
-**Title** (the form fills in `Font Request: `):
+**Title:**
 
 ```
 Font Request: LandUI Pro (Variable)
 ```
 
-**Font Name** (required):
+**Font Name:**
 
 ```
 LandUI Pro
 ```
 
-**Link to font source** (required):
+**Link to font source:**
 
 ```
-https://github.com/multiporttm/landui-pro-repo
+Github Link: https://github.com/multiporttm/landui-pro-repo
+Font Download Link: https://fontfiles.multiportllc.com/MLFonts/LandUIPro.ttf
 ```
 
-**Link to font license** (required):
+**Link to font license:**
 
 ```
-https://github.com/multiporttm/landui-pro-repo/blob/main/OFL.txt (SIL Open Font License 1.1)
+https://github.com/multiporttm/landui-pro-repo/blob/main/OFL.txt
 ```
 
-**Additional context** (optional):
+**Additional context:**
 
 ```
-Variable font by Multiport, derived from Inter (OFL-1.1).
+* Font Name: LandUI Pro
+* Designer: Multiport
+* Source: [github.com/multiporttm/landui-pro-repo](https://github.com/multiporttm/landui-pro-repo)
+* License: SIL Open Font License 1.1 ([OFL.txt](https://github.com/multiporttm/landui-pro-repo/blob/main/OFL.txt))
+* Category: Sans-serif
+* Variable Axes: `opsz` (14–32), `wght` (100–900)
+* Styles: Normal
+* Subsets: Latin, Latin Extended
+* Version: 1.000
+* Variable Font File: [LandUIPro[opsz,wght].ttf](https://github.com/multiporttm/landui-pro-repo/blob/main/fonts/variable/LandUIPro%5Bopsz%2Cwght%5D.ttf)
+* Webfont File: [LandUIPro[opsz,wght].woff2](https://github.com/multiporttm/landui-pro-repo/blob/main/fonts/webfonts/LandUIPro%5Bopsz%2Cwght%5D.woff2)
 
-- Axes: opsz 14–32, wght 100–900; normal style only
-- Subsets: latin, latin-ext
-- Variable TTF: fonts/variable/LandUIPro[opsz,wght].ttf
-- WOFF2: fonts/webfonts/LandUIPro[opsz,wght].woff2
+LandUI Pro is a variable sans-serif typeface for user interfaces derived from [Inter](https://github.com/rsms/inter), configuring a curated set of OpenType alternate glyphs (`cv05`, `cv06`, `cv08`, `cv10`, `cv11`, `cv12`, `cv13`, `zero`, `ss01`, `ss03`, `ss07`) as defaults.
+
+LandUI Pro vs Inter (top: Inter, bottom: LandUI Pro):
+<img width="1100" height="660" alt="landui-pro-vs-inter" src="https://github.com/user-attachments/assets/d4690694-ddf4-4776-9395-f2e8bd231b3e" />
 ```
 
-Then drag `documentation/landui-pro-vs-inter.png` into the Additional context box to attach the specimen.
+The image is the comparison specimen from `documentation/landui-pro-vs-inter.png`, uploaded to GitHub.
 
 ## Route B: package it yourself (PR)
 
